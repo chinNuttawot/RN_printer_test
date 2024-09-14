@@ -2894,6 +2894,7 @@ __metadata:
     prettier: 2.8.8
     react: 18.3.1
     react-native: 0.75.3
+    react-native-print: ^0.11.0
     react-test-renderer: 18.3.1
     typescript: 5.0.4
   languageName: unknown
@@ -7808,6 +7809,16 @@ __metadata:
   version: 17.0.2
   resolution: "react-is@npm:17.0.2"
   checksum: 9d6d111d8990dc98bc5402c1266a808b0459b5d54830bbea24c12d908b536df7883f268a7868cfaedde3dd9d4e0d574db456f84d2e6df9c4526f99bb4b5344d8
+  languageName: node
+  linkType: hard
+
+"react-native-print@npm:^0.11.0":
+  version: 0.11.0
+  resolution: "react-native-print@npm:0.11.0"
+  peerDependencies:
+    react-native: ">=0.8.0 || 0.8.0-rc || 0.8.0-rc.2 || 0.9.0-rc || 0.10.1"
+    react-native-windows: ">=0.62"
+  checksum: e687f342863592f721b70171307ddf9cdafb28cbf354d3a8c66b2c36c36bf898df4a8a0e8cb3c528a00cd859cfc892a9b943b52e5302dc0eda6f3f2a03d2794c
   languageName: node
   linkType: hard
 
